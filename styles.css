@@ -1,22 +1,57 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('/bg.jpg') no-repeat #040c0e;
+  background: url('bg.jpg') no-repeat #040c0e;
 }
 
 #map {
   width: 100%;
   height: 50%;
+  box-shadow: 0 0 30px rgb(220, 220, 255);
+}
+
+.box {
+  position: absolute;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 43em 25% 20em 25%;
+  border-radius: 20px 20px;
+  padding: 2em 4em;
+  font-size: 1.3em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: white;
-  text-align: center;
   font-family: "Roboto Slab";
-  font-weight: 400;
+  font-weight: 600;
+}
+
+h1 {
+  margin: 0.3em 0 0 42px;
+  font-size: 4.3em;
+}
+
+h2 {
+  margin: 0 0 1em 44px;
+  font-size: 1.5em;
+}
+
+h3, h4 {
+  color: black;
+  text-align: center;
 }
 
 p {
   font-family: "Roboto Slab";
   font-weight: 300;
+  text-align: center;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  color: #FF3300;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
 }
