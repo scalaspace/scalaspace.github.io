@@ -19,9 +19,8 @@
 
     <!---------------------------------------------------------------------------
       To add your Scala group to the array below, include a single-line array
-      with the following four elements, in order: group name, URL to the group
-      website or Meetup page, and the latitude and longitude of the place where
-      you most commonly meet.
+      with the following four elements, in order: group name, Meetup group ID,
+      and the latitude and longitude of the place where you usually meet.
       
       The easiest way to find these is to do a Google search for "coordinates of
       [place name]", and to reformat the response as real numbers, remembering to
@@ -37,16 +36,23 @@
 
     <script type="text/javascript">
       var groups = [
-        ['Bay Area Scala Enthusiasts (BASE)', 'http://www.meetup.com/Scala-Bay/', 37.3894, -122.0819],
-        ['Chicago Scala Enthusiasts (CASE)', 'http://www.meetup.com/chicagoscala/', 41.8369, -87.6847],
-        ['Japan Scala Users Group', 'https://github.com/scalajp', 35.6833, 139.6833],
-        ['Kraków Scala User Group', 'http://www.meetup.com/Krakow-Scala-User-Group/', 50.0614, 19.9383],
-        ['London Scala Users Group (LSUG)', 'http://www.meetup.com/london-scala/', 51.5072, 0.1275],
-        ['New York (ny-scala)', 'http://www.meetup.com/ny-scala/', 40.7127, -74.0059],
-        ['Paris Scala User Group', 'http://www.meetup.com/Paris-Scala-User-Group-PSUG/', 48.8567, 2.3508],
-        ['Scala Romandie', 'http://www.meetup.com/Scala-Romandie/', 46.2000, 6.1500],
-        ['SF Scala', 'http://www.meetup.com/SF-Scala/', 37.7833, -122.4167],
-        ['Warsaw Scala Enthusiasts', 'http://www.meetup.com/WarszawScaLa/', 52.2333, 21.0167],
+        ['Bay Area Scala Enthusiasts (BASE)', 'Scala-Bay', 37.3894, -122.0819],
+        ['Berlin Brandenburg', 'Scala-Berlin-Brandenburg', 52.5167, 13.3833],
+        ['Boulder Area Scala Enthusiasts', 'The-Boulder-Area-Scala-Enthusiasts', 40.0274, -105.2519],
+        ['Chicago Scala Enthusiasts (CASE)', 'chicagoscala', 41.8369, -87.6847],
+        ['Rhein Main Scala Enthusiasts', 'Rhein-Main-Scala-Enthusiasts', 50.1167, 8.6833],
+        //['Japan Scala Users Group', 'https://github.com/scalajp', 35.6833, 139.6833],
+        ['Kraków Scala User Group', 'Krakow-Scala-User-Group', 50.0614, 19.9383],
+        ['London Scala Users Group (LSUG)', 'london-scala', 51.5072, 0.1275],
+        ['New York (ny-scala)', 'ny-scala', 40.7127, -74.0059],
+        ['Paris Scala User Group', 'Paris-Scala-User-Group-PSUG', 48.8567, 2.3508],
+        ['Scala Developers Barcelona', 'Scala-Developers-Barcelona', 41.3833, 2.1833],
+        ['ScalaMAD', 'Scala-Programming-Madrid', 40.4000, -3.7167],
+        ['Scala Romandie', 'Scala-Romandie', 46.2000, 6.1500],
+        ['SF Scala', 'SF-Scala', 37.7833, -122.4167],
+        ['Tricity Scala Users Group', 'Tricity-Scala-Users-Group', 54.3500, 18.6333],
+        ['Vienna Scala User Group', 'scala-vienna', 48.2000, 16.3667],
+        ['Warsaw Scala Enthusiasts', 'WarszawScaLa', 52.2333, 21.0167],
       ];
 
       var map = new google.maps.Map(document.getElementById('map'), {
@@ -73,7 +79,7 @@
 
         google.maps.event.addListener(marker, 'click', (function(marker, i) {
           return function() {
-            info.setContent('<a href="'+groups[i][1]+'">'+groups[i][0]+'</a>');
+            info.setContent('<a href="http://www.meetup.com/'+groups[i][1]+'/">'+groups[i][0]+'</a>');
             info.open(map, marker);
           }
         })(marker, i));
