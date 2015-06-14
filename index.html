@@ -10,7 +10,12 @@
   <body>
     <h1>Scala Space</h1>
     <h2>Find Scala Meetup Groups Near You!</h2>
-    <div id="map" style="width: 100%; height: 900px;"></div>
+    <div id="map"></div>
+    <div class="box">
+      <h3>Is your group missing, or found a mistake?</h3>
+      <p>This website is open source, and contributing corrections, additions or new functionality is easy!</p>
+      <p>Just fork the <a href="https://github.com/scalaspace/scalaspace.github.io">scalaspace</a> repository, make your changes to the <b>index.html</b> file (instructions are in the source code), and create a pull request. We will merge the changes.</p>
+    </div>
 
     <!---------------------------------------------------------------------------
       To add your Scala group to the array below, include a single-line array
@@ -29,8 +34,9 @@
 
       Try to keep the locations in alphabetical order of name.
      ---------------------------------------------------------------------------->
+
     <script type="text/javascript">
-      var locations = [
+      var groups = [
         ['Bay Area Scala Enthusiasts (BASE)', 'http://www.meetup.com/Scala-Bay/', 37.3894, -122.0819],
         ['Chicago Scala Enthusiasts (CASE)', 'http://www.meetup.com/chicagoscala/', 41.8369, -87.6847],
         ['Japan Scala Users Group', 'https://github.com/scalajp', 35.6833, 139.6833],
@@ -55,20 +61,20 @@
         });
       }
       
-      var infowindow = new google.maps.InfoWindow();
+      var info = new google.maps.InfoWindow();
 
       var marker, i;
 
-      for(i = 0; i < locations.length; i++) {  
+      for(i = 0; i < groups.length; i++) {  
         marker = new google.maps.Marker({
-          position: new google.maps.LatLng(locations[i][2], locations[i][3]),
+          position: new google.maps.LatLng(groups[i][2], groups[i][3]),
           map: map
         });
 
         google.maps.event.addListener(marker, 'click', (function(marker, i) {
           return function() {
-            infowindow.setContent('<a href="'+locations[i][1]+'">'+locations[i][0]+'</a>');
-            infowindow.open(map, marker);
+            info.setContent('<a href="'+groups[i][1]+'">'+groups[i][0]+'</a>');
+            info.open(map, marker);
           }
         })(marker, i));
       }
