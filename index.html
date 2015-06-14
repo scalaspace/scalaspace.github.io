@@ -1,74 +1,77 @@
 <!DOCTYPE html>
 <html> 
-<head> 
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
-  <title>Google Maps Multiple Markers</title> 
-  <script src="http://maps.google.com/maps/api/js?sensor=false" 
-          type="text/javascript"></script>
-</head> 
-<body>
-  <div id="map" style="width: 100%; height: 900px;"></div>
+  <head> 
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+    <title>Scala Space: Find Scala Meetup Groups Near You!</title> 
+    <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,300" rel="stylesheet" type="text/css">
+    <link href="/styles.css" rel="stylesheet">
+  </head> 
+  <body>
+    <h1>Scala Space</h1>
+    <h2>Find Scala Meetup Groups Near You!</h2>
+    <div id="map" style="width: 100%; height: 900px;"></div>
 
-  <!---------------------------------------------------------------------------
-    To add your Scala group to the array below, include a single-line array
-    with the following four elements, in order: group name, URL to the group
-    website or Meetup page, and the latitude and longitude of the place where
-    you most commonly meet.
-    
-    The easiest way to find these is to do a Google search for "coordinates of
-    [place name]", and to reformat the response as real numbers, remembering to
-    negate longitudes in the Western Hemisphere, and latitudes in the Southern
-    Hemisphere.
+    <!---------------------------------------------------------------------------
+      To add your Scala group to the array below, include a single-line array
+      with the following four elements, in order: group name, URL to the group
+      website or Meetup page, and the latitude and longitude of the place where
+      you most commonly meet.
+      
+      The easiest way to find these is to do a Google search for "coordinates of
+      [place name]", and to reformat the response as real numbers, remembering to
+      negate longitudes in the Western Hemisphere, and latitudes in the Southern
+      Hemisphere.
 
-    For example, searching for "coordinates of Brighton" returns the response
-    "50.8429° N, 0.1313° W". This should be translated to the entry
-    ['Brighton Scala Users Group', 'http://example.com/', 50.8429, -0.1313].
-   ---------------------------------------------------------------------------->
-  <script type="text/javascript">
-    var locations = [
-      ['Bay Area Scala Enthusiasts (BASE)', 'http://www.meetup.com/Scala-Bay/', 37.3894, -122.0819],
-      ['Chicago Scala Enthusiasts (CASE)', 'http://www.meetup.com/chicagoscala/', 41.8369, -87.6847],
-      ['Japan Scala Users Group', 'https://github.com/scalajp', 35.6833, 139.6833],
-      ['Kraków Scala User Group', 'http://www.meetup.com/Krakow-Scala-User-Group/', 50.0614, 19.9383],
-      ['London Scala Users Group (LSUG)', 'http://www.meetup.com/london-scala/', 51.5072, 0.1275],
-      ['New York (ny-scala)', 'http://www.meetup.com/ny-scala/', 40.7127, -74.0059],
-      ['Paris Scala User Group', 'http://www.meetup.com/Paris-Scala-User-Group-PSUG/', 48.8567, 2.3508],
-      ['Scala Romandie', 'http://www.meetup.com/Scala-Romandie/', 46.2000, 6.1500],
-      ['SF Scala', 'http://www.meetup.com/SF-Scala/', 37.7833, -122.4167],
-      ['Warsaw Scala Enthusiasts', 'http://www.meetup.com/WarszawScaLa/', 52.2333, 21.0167],
-    ];
+      For example, searching for "coordinates of Brighton" returns the response
+      "50.8429° N, 0.1313° W". This should be translated to the entry
+      ['Brighton Scala Users Group', 'http://example.com/', 50.8429, -0.1313].
 
-    var c = [51.5072, 0.1275]; // default to London
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(function(pos) {
-        c[0] = pos.coords.latitude;
-        c[1] = pos.coords.longitude;
-      });
-    }
+      Try to keep the locations in alphabetical order of name.
+     ---------------------------------------------------------------------------->
+    <script type="text/javascript">
+      var locations = [
+        ['Bay Area Scala Enthusiasts (BASE)', 'http://www.meetup.com/Scala-Bay/', 37.3894, -122.0819],
+        ['Chicago Scala Enthusiasts (CASE)', 'http://www.meetup.com/chicagoscala/', 41.8369, -87.6847],
+        ['Japan Scala Users Group', 'https://github.com/scalajp', 35.6833, 139.6833],
+        ['Kraków Scala User Group', 'http://www.meetup.com/Krakow-Scala-User-Group/', 50.0614, 19.9383],
+        ['London Scala Users Group (LSUG)', 'http://www.meetup.com/london-scala/', 51.5072, 0.1275],
+        ['New York (ny-scala)', 'http://www.meetup.com/ny-scala/', 40.7127, -74.0059],
+        ['Paris Scala User Group', 'http://www.meetup.com/Paris-Scala-User-Group-PSUG/', 48.8567, 2.3508],
+        ['Scala Romandie', 'http://www.meetup.com/Scala-Romandie/', 46.2000, 6.1500],
+        ['SF Scala', 'http://www.meetup.com/SF-Scala/', 37.7833, -122.4167],
+        ['Warsaw Scala Enthusiasts', 'http://www.meetup.com/WarszawScaLa/', 52.2333, 21.0167],
+      ];
 
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 7,
-      center: new google.maps.LatLng(c[0], c[1]),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    });
-
-    var infowindow = new google.maps.InfoWindow();
-
-    var marker, i;
-
-    for (i = 0; i < locations.length; i++) {  
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][2], locations[i][3]),
-        map: map
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 6,
+        center: new google.maps.LatLng(51.5072, 0.1275),
+        mapTypeId: google.maps.MapTypeId.TERRAIN
       });
 
-      google.maps.event.addListener(marker, 'click', (function(marker, i) {
-        return function() {
-          infowindow.setContent('<a href="'+locations[i][1]+'">'+locations[i][0]+'</a>');
-          infowindow.open(map, marker);
-        }
-      })(marker, i));
-    }
-  </script>
-</body>
+      if(navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(pos) {
+          map.setCenter(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
+        });
+      }
+      
+      var infowindow = new google.maps.InfoWindow();
+
+      var marker, i;
+
+      for(i = 0; i < locations.length; i++) {  
+        marker = new google.maps.Marker({
+          position: new google.maps.LatLng(locations[i][2], locations[i][3]),
+          map: map
+        });
+
+        google.maps.event.addListener(marker, 'click', (function(marker, i) {
+          return function() {
+            infowindow.setContent('<a href="'+locations[i][1]+'">'+locations[i][0]+'</a>');
+            infowindow.open(map, marker);
+          }
+        })(marker, i));
+      }
+    </script>
+  </body>
 </html>
