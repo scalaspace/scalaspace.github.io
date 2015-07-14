@@ -36,25 +36,52 @@
 
     <script type="text/javascript">
       var groups = [
+        ['Amsterdam.scala', 'amsterdam-scala', 52.3667, 4.9000],
+        ['Atlanta Scala Meetup Group', 'atlanta-scala', 33.7550, -84.3900],
+        ['Austin Scala Enthusiasts', 'Austin-Scala-Enthusiasts', 30.2500, -97.7500],
         ['Bay Area Scala Enthusiasts (BASE)', 'Scala-Bay', 37.3894, -122.0819],
         ['Belgian Scala User Group', 'bescala', 50.8549,4.3753],
         ['Berlin Brandenburg', 'Scala-Berlin-Brandenburg', 52.5167, 13.3833],
+        ['Bern Scala User Group', 'Bern-Scala-User-Group', 46.9500, 7.4500],
+        ['Birmingham Functional Programmers Meetup', 'Birmingham-Functional-Programmers-Meetup', 52.4831, -1.8936],
         ['Boulder Area Scala Enthusiasts', 'The-Boulder-Area-Scala-Enthusiasts', 40.0274, -105.2519],
+        ['Boston Area Scala Enthusiasts', 'boston-scala', 42.3601, -71.0589],
+        ['Czech Scala Enthusiasts', 'czech-scala-enthusiasts', 50.0833, 14.4167],
         ['Chicago Scala Enthusiasts (CASE)', 'chicagoscala', 41.8369, -87.6847],
-        //['Japan Scala Users Group', 'https://github.com/scalajp', 35.6833, 139.6833],
+        ['Dallas Scala Enthusiasts', 'Dallas-Scala-Enthusiasts', 32.7767, -96.7970],
+        ['Dublin Scala Users Group', 'Dublin-Scala-users-group', 53.3478, -6.2597],
+        ['Dresden Scala Meetup', 'Dresden-Scala-Meetup', 51.0333, 13.7333],
+        ['Japan Scala Users Group', 'https://github.com/scalajp', 35.6833, 139.6833],
         ['Kraków Scala User Group', 'Krakow-Scala-User-Group', 50.0614, 19.9383],
         ['London Scala Users Group (LSUG)', 'london-scala', 51.5072, -0.1275],
         ['Lyon Scala User Group (SLUG)','suglyon', 45.7579555, 4.835121],
         ['Málaga Scala User Group', 'Malaga-Scala', 36.7648321, -4.4241892],
+        ['Milano Scala Group', 'scalamuc', 45.4667, 9.1833],
+        ['Munich Scala User Group', 'scalamuc', 48.1333, 11.5667],
         ['New York (ny-scala)', 'ny-scala', 40.7127, -74.0059],
         ['Paris Scala User Group', 'Paris-Scala-User-Group-PSUG', 48.8567, 2.3508],
+        ['PDXScala', 'PDXScala', 45.5200, -122.6819],
+        ['PHASE: Philly Area Scala Enthusiasts', 'scala-phase', 39.9500, -75.1667],
         ['Rhein Main Scala Enthusiasts', 'Rhein-Main-Scala-Enthusiasts', 50.1167, 8.6833],
+        ['Riviera Scala Clojure', 'riviera-scala-clojure', 43.7034, 7.2663],
+        ['San Diego Scala Users', 'San-Diego-Scala-Users', 32.7150, -117.1625],
+        ['Scala at the Sea', 'Seattle-Scala-User-Group', 47.6097, -122.3331],
+        ['Scala DC', 'dc-scala', 38.9047, -77.0164],
+        ['Scaladores', 'scaladores', -23.5500, -46.6333],
         ['Scala Developers Barcelona', 'Scala-Developers-Barcelona', 41.3833, 2.1833],
+        ['Scala Developers in Manchester', 'scala-developers', 53.4667, -2.2333],
+        ['Scala Enthusiasts Braunschweig', 'http://scala-bs.de/', 52.2667, 10.5167],
+        ['Scala Hamburg', 'Scala-Hamburg', 53.5653, 10.0014],
+        ['Scala User Group Köln Bonn', 'Scala-User-Group-Koln-Bonn', 50.9364, 6.9528],
+        ['Scala Users Tribe Canberra', 'Scala-Users-Tribe-Canberra', -35.3075, 149.1244],
         ['ScalaMAD', 'Scala-Programming-Madrid', 40.4000, -3.7167],
         ['Scala Romandie', 'Scala-Romandie', 46.2000, 6.1500],
+        ['Scala Stockholm', 'Scala-Stockholm', 59.3294, 18.0686],
         ['SF Scala', 'SF-Scala', 37.7833, -122.4167],
+        ['The Copenhagen Scala Users Group', 'The-Copenhagen-Scala-Users-Group', 55.6761, 12.5683],
         ['Tricity Scala Users Group', 'Tricity-Scala-Users-Group', 54.3500, 18.6333],
         ['Underscore (Israeli Scala User Group)', 'underscore', 32.0667, 34.8000],
+        ['Vancouver Scala', 'vancouver-scala', 49.2827, -123.1207],
         ['Vienna Scala User Group', 'scala-vienna', 48.2000, 16.3667],
         ['Warsaw Scala Enthusiasts', 'WarszawScaLa', 52.239505, 21.045874],
         ['Warsaw Scala Hackathons', 'ScalaWAW', 52.246475, 20.988900]
@@ -84,7 +111,8 @@
 
         google.maps.event.addListener(marker, 'click', (function(marker, i) {
           return function() {
-            info.setContent('<a href="http://www.meetup.com/'+groups[i][1]+'/">'+groups[i][0]+'</a>');
+            var link = function(s){if(s.startsWith('http')) { return s; } else { return 'http://www.meetup.com/'+s+'/'; }}(groups[i][1]);
+            info.setContent('<a href="'+link+'">'+groups[i][0]+'</a>');
             info.open(map, marker);
           }
         })(marker, i));
