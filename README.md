@@ -9,7 +9,7 @@ For example, searching for "coordinates of Brighton" returns the response "50.84
       url: 'http://example.com/',
       latitude: 50.8429, 
       longitude: -0.1313, 
-      justScala: true}
+      justScala: true
     }
 
 Try to keep the locations in alphabetical order of name.
