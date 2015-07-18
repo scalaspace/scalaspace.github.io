@@ -23,6 +23,7 @@ var groups = [
   ['Dubai Scala', 'dubai-scala', 25.2048, 55.2708, true],
   ['Dublin Scala Users Group', 'Dublin-Scala-users-group', 53.3478, -6.2597, true],
   ['Dresden Scala Meetup', 'Dresden-Scala-Meetup', 51.0333, 13.7333, true],
+  ['Enterprise Scala Users Group', 'Bogota-Scala-Meetup', 4.3635, -74.0454, true],
   ['FP AMS', 'fp-ams', 52.3667, 4.9000, false],
   ['FP Calgary', 'Functional-Programmers-YYC', 51.0486, -114.0708, false],
   ['Functional Brighton', 'Functional-Brighton', 50.8429, -0.1313, true],
