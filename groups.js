@@ -1,5 +1,5 @@
 var groups = [
-  ['Amsterdam.scala', 'amsterdam-scala', 52.3667, 4.9000, true],
+  ['Amsterdam.scala', 'amsterdam-scala', 52.3700, 4.9050, true],
   ['Athens Scala Meetup', 'Athens-Scala-Meetup', 37.9667, 23.7167, true],
   ['Atlanta Scala Meetup Group', 'atlanta-scala', 33.7550, -84.3900, true],
   ['Austin Scala Enthusiasts', 'Austin-Scala-Enthusiasts', 30.2500, -97.7500, true],
@@ -24,7 +24,7 @@ var groups = [
   ['Dublin Scala Users Group', 'Dublin-Scala-users-group', 53.3478, -6.2597, true],
   ['Dresden Scala Meetup', 'Dresden-Scala-Meetup', 51.0333, 13.7333, true],
   ['Enterprise Scala Users Group', 'Bogota-Scala-Meetup', 4.3635, -74.0454, true],
-  ['FP AMS', 'fp-ams', 52.3667, 4.9000, false],
+  ['FP AMS', 'fp-ams', 52.3700, 4.8940, false],
   ['FP Calgary', 'Functional-Programmers-YYC', 51.0486, -114.0708, false],
   ['Functional Brighton', 'Functional-Brighton', 50.8429, -0.1313, true],
   ['Göteborgs Scalaentusiaster', 'Scala-Geats', 57.7000, 11.9667, true],
