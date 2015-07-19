@@ -1,809 +1,809 @@
 {
   "groups": [
     {
+      "name": "Amsterdam.scala",
       "url": "amsterdam-scala",
-      "latitude": 52.3667,
-      "longitude": 4.9,
-      "justScala": true,
-      "name": "Amsterdam.scala"
+      "latitude": 52.37,
+      "longitude": 4.905,
+      "justScala": true
     },
     {
+      "name": "Athens Scala Meetup",
       "url": "Athens-Scala-Meetup",
       "latitude": 37.9667,
       "longitude": 23.7167,
-      "justScala": true,
-      "name": "Athens Scala Meetup"
+      "justScala": true
     },
     {
+      "name": "Atlanta Scala Meetup Group",
       "url": "atlanta-scala",
       "latitude": 33.755,
       "longitude": -84.39,
-      "justScala": true,
-      "name": "Atlanta Scala Meetup Group"
+      "justScala": true
     },
     {
+      "name": "Austin Scala Enthusiasts",
       "url": "Austin-Scala-Enthusiasts",
       "latitude": 30.25,
       "longitude": -97.75,
-      "justScala": true,
-      "name": "Austin Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "Bangalore Scala/Akka Functional Programming",
       "url": "Bangalore-Scala-Akka-Functional-Programming",
       "latitude": 12.9667,
       "longitude": 77.5667,
-      "justScala": true,
-      "name": "Bangalore Scala/Akka Functional Programming"
+      "justScala": true
     },
     {
+      "name": "Bay Area Scala Enthusiasts (BASE)",
       "url": "Scala-Bay",
       "latitude": 37.3894,
       "longitude": -122.0819,
-      "justScala": true,
-      "name": "Bay Area Scala Enthusiasts (BASE)"
+      "justScala": true
     },
     {
+      "name": "Belgian Scala User Group",
       "url": "bescala",
       "latitude": 50.8549,
       "longitude": 4.3753,
-      "justScala": true,
-      "name": "Belgian Scala User Group"
+      "justScala": true
     },
     {
+      "name": "Berlin Brandenburg",
       "url": "Scala-Berlin-Brandenburg",
       "latitude": 52.5167,
       "longitude": 13.3833,
-      "justScala": true,
-      "name": "Berlin Brandenburg"
+      "justScala": true
     },
     {
+      "name": "Bern Scala User Group",
       "url": "Bern-Scala-User-Group",
       "latitude": 46.95,
       "longitude": 7.45,
-      "justScala": true,
-      "name": "Bern Scala User Group"
+      "justScala": true
     },
     {
+      "name": "Birmingham Functional Programmers Meetup",
       "url": "Birmingham-Functional-Programmers-Meetup",
       "latitude": 52.4831,
       "longitude": -1.8936,
-      "justScala": true,
-      "name": "Birmingham Functional Programmers Meetup"
+      "justScala": true
     },
     {
+      "name": "Boulder Area Scala Enthusiasts",
       "url": "The-Boulder-Area-Scala-Enthusiasts",
       "latitude": 40.0274,
       "longitude": -105.2519,
-      "justScala": true,
-      "name": "Boulder Area Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "Boston Area Scala Enthusiasts",
       "url": "boston-scala",
       "latitude": 42.3601,
       "longitude": -71.0589,
-      "justScala": true,
-      "name": "Boston Area Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "Brabant Scala",
       "url": "brabant-scala",
       "latitude": 51.6833,
       "longitude": 5.3,
-      "justScala": true,
-      "name": "Brabant Scala"
+      "justScala": true
     },
     {
+      "name": "Brisbane Functional Programming Group",
       "url": "Brisbane-Functional-Programming-Group",
       "latitude": -27.4667,
       "longitude": 153.0333,
-      "justScala": true,
-      "name": "Brisbane Functional Programming Group"
+      "justScala": true
     },
     {
+      "name": "budapest.scala",
       "url": "budapest-scala",
       "latitude": 47.4925,
       "longitude": 19.0514,
-      "justScala": true,
-      "name": "budapest.scala"
+      "justScala": true
     },
     {
+      "name": "Cape Town Scala Programming Meetup",
       "url": "Cape-Town-Scala-Programming-Meetup",
       "latitude": -33.9253,
       "longitude": 18.4239,
-      "justScala": true,
-      "name": "Cape Town Scala Programming Meetup"
+      "justScala": true
     },
     {
+      "name": "Centre Area Functional Enthusiasts (CAFE) Meetup",
       "url": "CAFE-Centre-Area-Functional-Enthusiasts",
       "latitude": 40.7914,
       "longitude": -77.8586,
-      "justScala": false,
-      "name": "Centre Area Functional Enthusiasts (CAFE) Meetup"
+      "justScala": false
     },
     {
+      "name": "Czech Scala Enthusiasts",
       "url": "czech-scala-enthusiasts",
       "latitude": 50.0833,
       "longitude": 14.4167,
-      "justScala": true,
-      "name": "Czech Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "Chicago Scala Enthusiasts (CASE)",
       "url": "chicagoscala",
       "latitude": 41.8369,
       "longitude": -87.6847,
-      "justScala": true,
-      "name": "Chicago Scala Enthusiasts (CASE)"
+      "justScala": true
     },
     {
+      "name": "Dallas Scala Enthusiasts",
       "url": "Dallas-Scala-Enthusiasts",
       "latitude": 32.7767,
       "longitude": -96.797,
-      "justScala": true,
-      "name": "Dallas Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "Delhi NCR Scala Meetup",
       "url": "Delhi-NCR-Scala-Meetup",
       "latitude": 28.6139,
       "longitude": 77.209,
-      "justScala": true,
-      "name": "Delhi NCR Scala Meetup"
+      "justScala": true
     },
     {
+      "name": "Dubai Scala",
       "url": "dubai-scala",
       "latitude": 25.2048,
       "longitude": 55.2708,
-      "justScala": true,
-      "name": "Dubai Scala"
+      "justScala": true
     },
     {
+      "name": "Dublin Scala Users Group",
       "url": "Dublin-Scala-users-group",
       "latitude": 53.3478,
       "longitude": -6.2597,
-      "justScala": true,
-      "name": "Dublin Scala Users Group"
+      "justScala": true
     },
     {
+      "name": "Dresden Scala Meetup",
       "url": "Dresden-Scala-Meetup",
       "latitude": 51.0333,
       "longitude": 13.7333,
-      "justScala": true,
-      "name": "Dresden Scala Meetup"
+      "justScala": true
     },
     {
+      "name": "Enterprise Scala Users Group",
       "url": "Bogota-Scala-Meetup",
       "latitude": 4.3635,
       "longitude": -74.0454,
-      "justScala": true,
-      "name": "Enterprise Scala Users Group"
+      "justScala": true
     },
     {
+      "name": "FP AMS",
       "url": "fp-ams",
-      "latitude": 52.3667,
-      "longitude": 4.9,
-      "justScala": false,
-      "name": "FP AMS"
+      "latitude": 52.37,
+      "longitude": 4.894,
+      "justScala": false
     },
     {
+      "name": "FP Calgary",
       "url": "Functional-Programmers-YYC",
       "latitude": 51.0486,
       "longitude": -114.0708,
-      "justScala": false,
-      "name": "FP Calgary"
+      "justScala": false
     },
     {
+      "name": "Functional Brighton",
       "url": "Functional-Brighton",
       "latitude": 50.8429,
       "longitude": -0.1313,
-      "justScala": true,
-      "name": "Functional Brighton"
+      "justScala": true
     },
     {
+      "name": "Göteborgs Scalaentusiaster",
       "url": "Scala-Geats",
       "latitude": 57.7,
       "longitude": 11.9667,
-      "justScala": true,
-      "name": "Göteborgs Scalaentusiaster"
+      "justScala": true
     },
     {
+      "name": "Hong Kong Functional Programming",
       "url": "HK-Functional-Programming",
       "latitude": 22.2783,
       "longitude": 114.1747,
-      "justScala": false,
-      "name": "Hong Kong Functional Programming"
+      "justScala": false
     },
     {
+      "name": "HRScala",
       "url": "HRScala",
       "latitude": 45.8167,
       "longitude": 15.9833,
-      "justScala": true,
-      "name": "HRScala"
+      "justScala": true
     },
     {
+      "name": "Indy Scala",
       "url": "IndyScala",
       "latitude": 39.791,
       "longitude": -86.148,
-      "justScala": true,
-      "name": "Indy Scala"
+      "justScala": true
     },
     {
+      "name": "JUG Poznań",
       "url": "http://www.jug.poznan.pl",
       "latitude": 52.24,
       "longitude": 16.9167,
-      "justScala": false,
-      "name": "JUG Poznań"
+      "justScala": false
     },
     {
+      "name": "Japan Scala Users Group",
       "url": "https://github.com/scalajp",
       "latitude": 35.6833,
       "longitude": 139.6833,
-      "justScala": true,
-      "name": "Japan Scala Users Group"
+      "justScala": true
     },
     {
+      "name": "Kraków Scala User Group",
       "url": "Krakow-Scala-User-Group",
       "latitude": 50.0614,
       "longitude": 19.9383,
-      "justScala": true,
-      "name": "Kraków Scala User Group"
+      "justScala": true
     },
     {
+      "name": "Lambda-ES",
       "url": "%CE%BB-Lambda-ES",
       "latitude": 36.4629241,
       "longitude": -6.2334788,
-      "justScala": true,
-      "name": "Lambda-ES"
+      "justScala": true
     },
     {
+      "name": "Lambda Luminaries",
       "url": "lambda-luminaries",
       "latitude": -25.8407139,
       "longitude": 28.209476,
-      "justScala": false,
-      "name": "Lambda Luminaries"
+      "justScala": false
     },
     {
+      "name": "Ljubljana Scala User Group",
       "url": "Ljubljana-Scala-User-Group",
       "latitude": 46.0556,
       "longitude": 14.5083,
-      "justScala": true,
-      "name": "Ljubljana Scala User Group"
+      "justScala": true
     },
     {
+      "name": "London Scala Users Group (LSUG)",
       "url": "london-scala",
       "latitude": 51.5072,
       "longitude": -0.1275,
-      "justScala": true,
-      "name": "London Scala Users Group (LSUG)"
+      "justScala": true
     },
     {
+      "name": "Lodz JUG",
       "url": "Java-User-Group-Lodz",
       "latitude": 51.7460991,
       "longitude": 19.4556333,
-      "justScala": false,
-      "name": "Lodz JUG"
+      "justScala": false
     },
     {
+      "name": "Los Angeles Scala Users Group",
       "url": "Los-Angeles-Scala-Users-Group",
       "latitude": 34.05,
       "longitude": -118.25,
-      "justScala": true,
-      "name": "Los Angeles Scala Users Group"
+      "justScala": true
     },
     {
+      "name": "Lyon Scala User Group (SLUG)",
       "url": "suglyon",
       "latitude": 45.7579555,
       "longitude": 4.835121,
-      "justScala": true,
-      "name": "Lyon Scala User Group (SLUG)"
+      "justScala": true
     },
     {
+      "name": "Málaga Scala User Group",
       "url": "Malaga-Scala",
       "latitude": 36.7648321,
       "longitude": -4.4241892,
-      "justScala": true,
-      "name": "Málaga Scala User Group"
+      "justScala": true
     },
     {
+      "name": "Melbourne Scala User Group",
       "url": "Melbourne-Scala-User-Group",
       "latitude": -37.8136,
       "longitude": 144.9631,
-      "justScala": true,
-      "name": "Melbourne Scala User Group"
+      "justScala": true
     },
     {
+      "name": "Milano Scala Group",
       "url": "milano-scala-group",
       "latitude": 45.4667,
       "longitude": 9.1833,
-      "justScala": true,
-      "name": "Milano Scala Group"
+      "justScala": true
     },
     {
+      "name": "Munich Scala User Group",
       "url": "scalamuc",
       "latitude": 48.1333,
       "longitude": 11.5667,
-      "justScala": true,
-      "name": "Munich Scala User Group"
+      "justScala": true
     },
     {
+      "name": "Mumbai Scala Functional Programming Meetup",
       "url": "Mumbai-Scala-Functional-Programming-Meetup",
       "latitude": 18.975,
       "longitude": 72.8258,
-      "justScala": true,
-      "name": "Mumbai Scala Functional Programming Meetup"
+      "justScala": true
     },
     {
+      "name": "Nantes FP",
       "url": "https://nantes-fp.github.io/",
       "latitude": 47.2181,
       "longitude": -1.5528,
-      "justScala": false,
-      "name": "Nantes FP"
+      "justScala": false
     },
     {
+      "name": "New York (ny-scala)",
       "url": "ny-scala",
       "latitude": 40.7127,
       "longitude": -74.0059,
-      "justScala": true,
-      "name": "New York (ny-scala)"
+      "justScala": true
     },
     {
+      "name": "New York Scala University",
       "url": "New-York-Scala-University",
       "latitude": 40.7421,
       "longitude": -73.9911,
-      "justScala": true,
-      "name": "New York Scala University"
+      "justScala": true
     },
     {
+      "name": "Novosibirsk Scala Enthusiasts",
       "url": "ScalaNsk",
       "latitude": 55.0167,
       "longitude": 82.9333,
-      "justScala": true,
-      "name": "Novosibirsk Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "NoFun",
       "url": "no-fun",
       "latitude": 29.95,
       "longitude": -90.0667,
-      "justScala": true,
-      "name": "NoFun"
+      "justScala": true
     },
     {
+      "name": "NZ Scala",
       "url": "NZ-Scala",
       "latitude": -36.8406,
       "longitude": 174.74,
-      "justScala": true,
-      "name": "NZ Scala"
+      "justScala": true
     },
     {
+      "name": "Oakland Advanced Scala Study Group",
       "url": "oakland-scala",
       "latitude": 37.8044,
       "longitude": -122.2708,
-      "justScala": true,
-      "name": "Oakland Advanced Scala Study Group"
+      "justScala": true
     },
     {
+      "name": "Orange County Scala",
       "url": "OC-Scala",
       "latitude": 33.6694,
       "longitude": -117.8231,
-      "justScala": true,
-      "name": "Orange County Scala"
+      "justScala": true
     },
     {
+      "name": "Ottawa Scala Enthusiasts",
       "url": "Ottawa-Scala-Enthusiasts",
       "latitude": 45.4214,
       "longitude": -75.6919,
-      "justScala": true,
-      "name": "Ottawa Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "Paris Scala User Group",
       "url": "Paris-Scala-User-Group-PSUG",
       "latitude": 48.8567,
       "longitude": 2.3508,
-      "justScala": true,
-      "name": "Paris Scala User Group"
+      "justScala": true
     },
     {
+      "name": "PDXScala",
       "url": "PDXScala",
       "latitude": 45.52,
       "longitude": -122.6819,
-      "justScala": true,
-      "name": "PDXScala"
+      "justScala": true
     },
     {
+      "name": "Perth Functional Programmers",
       "url": "PerthFP",
       "latitude": -31.9416,
       "longitude": 115.8473,
-      "justScala": false,
-      "name": "Perth Functional Programmers"
+      "justScala": false
     },
     {
+      "name": "Perth Java and JVM Community",
       "url": "Perth-Java-JVM-Community",
       "latitude": -31.9616,
       "longitude": 115.8673,
-      "justScala": false,
-      "name": "Perth Java and JVM Community"
+      "justScala": false
     },
     {
+      "name": "PHASE: Philly Area Scala Enthusiasts",
       "url": "scala-phase",
       "latitude": 39.95,
       "longitude": -75.1667,
-      "justScala": true,
-      "name": "PHASE: Philly Area Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "Pune Scala Meetup",
       "url": "punescala",
       "latitude": 18.5203,
       "longitude": 73.8567,
-      "justScala": true,
-      "name": "Pune Scala Meetup"
+      "justScala": true
     },
     {
+      "name": "Rhein Main Scala Enthusiasts",
       "url": "Rhein-Main-Scala-Enthusiasts",
       "latitude": 50.1167,
       "longitude": 8.6833,
-      "justScala": true,
-      "name": "Rhein Main Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "Rio Scala Enthusiasts",
       "url": "Rio-Scala-Enthusiasts",
       "latitude": -22.9068,
       "longitude": -43.1729,
-      "justScala": true,
-      "name": "Rio Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "Riviera Scala Clojure",
       "url": "riviera-scala-clojure",
       "latitude": 43.7034,
       "longitude": 7.2663,
-      "justScala": false,
-      "name": "Riviera Scala Clojure"
+      "justScala": false
     },
     {
+      "name": "San Diego Scala Users",
       "url": "San-Diego-Scala-Users",
       "latitude": 32.715,
       "longitude": -117.1625,
-      "justScala": true,
-      "name": "San Diego Scala Users"
+      "justScala": true
     },
     {
+      "name": "Scala at the Sea",
       "url": "Seattle-Scala-User-Group",
       "latitude": 47.6097,
       "longitude": -122.3331,
-      "justScala": true,
-      "name": "Scala at the Sea"
+      "justScala": true
     },
     {
+      "name": "scalabin",
       "url": "scalabin",
       "latitude": 59.95,
       "longitude": 10.75,
-      "justScala": true,
-      "name": "scalabin"
+      "justScala": true
     },
     {
+      "name": "Группа энтузиастов языка программирования Scala в Беларуси",
       "url": "http://scala.by/",
       "latitude": 53.9,
       "longitude": 27.5667,
-      "justScala": true,
-      "name": "Группа энтузиастов языка программирования Scala в Беларуси"
+      "justScala": true
     },
     {
+      "name": "Scala Bootcamp",
       "url": "Scala-Bootcamp",
       "latitude": 25.0333,
       "longitude": 121.6333,
-      "justScala": true,
-      "name": "Scala Bootcamp"
+      "justScala": true
     },
     {
+      "name": "Scala DC",
       "url": "dc-scala",
       "latitude": 38.9047,
       "longitude": -77.0164,
-      "justScala": true,
-      "name": "Scala DC"
+      "justScala": true
     },
     {
+      "name": "Scaladores",
       "url": "scaladores",
       "latitude": -23.55,
       "longitude": -46.6333,
-      "justScala": true,
-      "name": "Scaladores"
+      "justScala": true
     },
     {
+      "name": "Scala Developers Barcelona",
       "url": "Scala-Developers-Barcelona",
       "latitude": 41.3833,
       "longitude": 2.1833,
-      "justScala": true,
-      "name": "Scala Developers Barcelona"
+      "justScala": true
     },
     {
+      "name": "Scala Developers in Manchester",
       "url": "scala-developers",
       "latitude": 53.4667,
       "longitude": -2.2333,
-      "justScala": true,
-      "name": "Scala Developers in Manchester"
+      "justScala": true
     },
     {
+      "name": "Scala Enthusiasts Braunschweig",
       "url": "http://scala-bs.de/",
       "latitude": 52.2667,
       "longitude": 10.5167,
-      "justScala": true,
-      "name": "Scala Enthusiasts Braunschweig"
+      "justScala": true
     },
     {
+      "name": "Scala Hamburg",
       "url": "Scala-Hamburg",
       "latitude": 53.5653,
       "longitude": 10.0014,
-      "justScala": true,
-      "name": "Scala Hamburg"
+      "justScala": true
     },
     {
+      "name": "Scala Jozi",
       "url": "Scala-Jozi",
       "latitude": -26.2044,
       "longitude": 28.0456,
-      "justScala": true,
-      "name": "Scala Jozi"
+      "justScala": true
     },
     {
+      "name": "Scala Leipzip Meetup",
       "url": "Scala-Leipzig-Meetup",
       "latitude": 51.3333,
       "longitude": 12.3833,
-      "justScala": true,
-      "name": "Scala Leipzip Meetup"
+      "justScala": true
     },
     {
+      "name": "Scala Manila",
       "url": "scala-manila",
       "latitude": 14.58,
       "longitude": 121,
-      "justScala": true,
-      "name": "Scala Manila"
+      "justScala": true
     },
     {
+      "name": "ScalaMDE",
       "url": "ScalaMDE",
       "latitude": 6.2308,
       "longitude": -75.5906,
-      "justScala": true,
-      "name": "ScalaMDE"
+      "justScala": true
     },
     {
+      "name": "Scala Meetup Montevideo",
       "url": "Scala-Meetup-MVD",
       "latitude": -34.8836,
       "longitude": -56.1819,
-      "justScala": true,
-      "name": "Scala Meetup Montevideo"
+      "justScala": true
     },
     {
+      "name": "Scala-Montreal",
       "url": "Scala-Montreal",
       "latitude": 45.5017,
       "longitude": -73.5673,
-      "justScala": true,
-      "name": "Scala-Montreal"
+      "justScala": true
     },
     {
+      "name": "Scala Moscow",
       "url": "scala-moscow",
       "latitude": 55.75,
       "longitude": 37.6167,
-      "justScala": true,
-      "name": "Scala Moscow"
+      "justScala": true
     },
     {
+      "name": "ScalaPHX",
       "url": "scalaphx",
       "latitude": 33.45,
       "longitude": -112.0667,
-      "justScala": true,
-      "name": "ScalaPHX"
+      "justScala": true
     },
     {
+      "name": "Scala Portugal",
       "url": "Scala-Portugal",
       "latitude": 38.7139,
       "longitude": -9.1394,
-      "justScala": true,
-      "name": "Scala Portugal"
+      "justScala": true
     },
     {
+      "name": "ScalaUA",
       "url": "http://scala-lang.org.ua/",
       "latitude": 50.45,
       "longitude": 30.5233,
-      "justScala": true,
-      "name": "ScalaUA"
+      "justScala": true
     },
     {
+      "name": "Scala User Group Köln Bonn",
       "url": "Scala-User-Group-Koln-Bonn",
       "latitude": 50.9364,
       "longitude": 6.9528,
-      "justScala": true,
-      "name": "Scala User Group Köln Bonn"
+      "justScala": true
     },
     {
+      "name": "Scala Users Tribe Canberra",
       "url": "Scala-Users-Tribe-Canberra",
       "latitude": -35.3075,
       "longitude": 149.1244,
-      "justScala": true,
-      "name": "Scala Users Tribe Canberra"
+      "justScala": true
     },
     {
+      "name": "ScalaMAD",
       "url": "Scala-Programming-Madrid",
       "latitude": 40.4,
       "longitude": -3.7167,
-      "justScala": true,
-      "name": "ScalaMAD"
+      "justScala": true
     },
     {
+      "name": "Scala Romandie",
       "url": "Scala-Romandie",
       "latitude": 46.2,
       "longitude": 6.15,
-      "justScala": true,
-      "name": "Scala Romandie"
+      "justScala": true
     },
     {
+      "name": "Scala Stockholm",
       "url": "Scala-Stockholm",
       "latitude": 59.3294,
       "longitude": 18.0686,
-      "justScala": true,
-      "name": "Scala Stockholm"
+      "justScala": true
     },
     {
+      "name": "ScalaSyd",
       "url": "scalasyd",
       "latitude": -33.865,
       "longitude": 151.2094,
-      "justScala": true,
-      "name": "ScalaSyd"
+      "justScala": true
     },
     {
+      "name": "Scala Thailand Meetup",
       "url": "Scala-Thailand-Meetup",
       "latitude": 13.7563,
       "longitude": 100.5018,
-      "justScala": true,
-      "name": "Scala Thailand Meetup"
+      "justScala": true
     },
     {
+      "name": "Singapore Scala Programmers",
       "url": "Singapore-Scala-Programmers",
       "latitude": 1.3,
       "longitude": 103.8,
-      "justScala": true,
-      "name": "Singapore Scala Programmers"
+      "justScala": true
     },
     {
+      "name": "SF Scala",
       "url": "SF-Scala",
       "latitude": 37.7833,
       "longitude": -122.4167,
-      "justScala": true,
-      "name": "SF Scala"
+      "justScala": true
     },
     {
+      "name": "Slovak Scala Users Group",
       "url": "slovak-scala",
       "latitude": 48.1439,
       "longitude": 17.1097,
-      "justScala": true,
-      "name": "Slovak Scala Users Group"
+      "justScala": true
     },
     {
+      "name": "South Bay Scala DrinkUp",
       "url": "Bay-Burrito-Ballmer-Peak-Hackers",
       "latitude": 37.3382,
       "longitude": -121.8863,
-      "justScala": true,
-      "name": "South Bay Scala DrinkUp"
+      "justScala": true
     },
     {
+      "name": "South West Scala",
       "url": "South-West-Scala",
       "latitude": 51.45,
       "longitude": -2.5833,
-      "justScala": true,
-      "name": "South West Scala"
+      "justScala": true
     },
     {
+      "name": "SUGAR - Scala User Group Argentina",
       "url": "scala_ar",
       "latitude": -34.6033,
       "longitude": -58.3817,
-      "justScala": true,
-      "name": "SUGAR - Scala User Group Argentina"
+      "justScala": true
     },
     {
+      "name": "Szczecin.scala",
       "url": "Szczecin-Java-Users-Group",
       "latitude": 53.4325,
       "longitude": 14.5481,
-      "justScala": false,
-      "name": "Szczecin.scala"
+      "justScala": false
     },
     {
+      "name": "The Copenhagen Scala Users Group",
       "url": "The-Copenhagen-Scala-Users-Group",
       "latitude": 55.6761,
       "longitude": 12.5683,
-      "justScala": true,
-      "name": "The Copenhagen Scala Users Group"
+      "justScala": true
     },
     {
+      "name": "Torino Scala Programming &amp; Big Data Meetup",
       "url": "Torino-Scala-Programming-Big-Data-Meetup",
       "latitude": 45.0667,
       "longitude": 7.7,
-      "justScala": true,
-      "name": "Torino Scala Programming &amp; Big Data Meetup"
+      "justScala": true
     },
     {
+      "name": "Toronto Scala &amp; Typesafe User Group",
       "url": "Toronto-Scala-Typesafe-User-Group",
       "latitude": 43.7,
       "longitude": -79.4,
-      "justScala": true,
-      "name": "Toronto Scala &amp; Typesafe User Group"
+      "justScala": true
     },
     {
+      "name": "Treviso Scala Meetup",
       "url": "Treviso-Scala-Meetup",
       "latitude": 45.6667,
       "longitude": 12.25,
-      "justScala": true,
-      "name": "Treviso Scala Meetup"
+      "justScala": true
     },
     {
+      "name": "Tricity Scala Users Group",
       "url": "Tricity-Scala-Users-Group",
       "latitude": 54.35,
       "longitude": 18.6333,
-      "justScala": true,
-      "name": "Tricity Scala Users Group"
+      "justScala": true
     },
     {
+      "name": "Underscore (Israeli Scala User Group)",
       "url": "underscore",
       "latitude": 32.0667,
       "longitude": 34.8,
-      "justScala": true,
-      "name": "Underscore (Israeli Scala User Group)"
+      "justScala": true
     },
     {
+      "name": "Utah Scala Enthusiasts",
       "url": "Utah-Scala-Enthusiasts",
       "latitude": 40.75,
       "longitude": -111.8833,
-      "justScala": true,
-      "name": "Utah Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "Vancouver Scala",
       "url": "vancouver-scala",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "justScala": true,
-      "name": "Vancouver Scala"
+      "justScala": true
     },
     {
+      "name": "Vienna Scala User Group",
       "url": "scala-vienna",
       "latitude": 48.2,
       "longitude": 16.3667,
-      "justScala": true,
-      "name": "Vienna Scala User Group"
+      "justScala": true
     },
     {
+      "name": "Vilnius Scala",
       "url": "http://vilnius-jug.lt",
       "latitude": 54.6833,
       "longitude": 25.2833,
-      "justScala": true,
-      "name": "Vilnius Scala"
+      "justScala": true
     },
     {
+      "name": "Warsaw Scala Enthusiasts",
       "url": "WarszawScaLa",
       "latitude": 52.239505,
       "longitude": 21.045874,
-      "justScala": true,
-      "name": "Warsaw Scala Enthusiasts"
+      "justScala": true
     },
     {
+      "name": "Warsaw Scala Hackathons",
       "url": "ScalaWAW",
       "latitude": 52.246475,
       "longitude": 20.9889,
-      "justScala": true,
-      "name": "Warsaw Scala Hackathons"
+      "justScala": true
     },
     {
+      "name": "Wrocław JUG Meetup",
       "url": "WroclawJUG",
       "latitude": 51.1,
       "longitude": 17.0333,
-      "justScala": false,
-      "name": "Wrocław JUG Meetup"
+      "justScala": false
     },
     {
+      "name": "Yokohama Scala Programming Meetup",
       "url": "Yokohama-Scala-Programming-Meetup",
       "latitude": 35.4442,
       "longitude": 139.6381,
-      "justScala": true,
-      "name": "Yokohama Scala Programming Meetup"
+      "justScala": true
     },
     {
+      "name": "Zurich Scala Enthusiasts",
       "url": "Zurich-Scala",
       "latitude": 47.3667,
       "longitude": 8.55,
-      "justScala": true,
-      "name": "Zurich Scala Enthusiasts"
+      "justScala": true
     }
   ]
 }
