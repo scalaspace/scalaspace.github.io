@@ -53,6 +53,17 @@ header .right {
     font-family: "Roboto Slab";
     display: none;
     font-size: 1.3em;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+#contribute div {
+    width: 35em;
+    margin: 0 auto;
 }
 
 p {

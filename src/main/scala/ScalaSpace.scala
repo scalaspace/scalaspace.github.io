@@ -65,6 +65,13 @@ object ScalaSpace extends JSApp {
   @JSExport
   override def main(): Unit = {
     google.maps.event.addDomListener(window, "load", initialize)
+    val contribute = document.getElementById("contribute")
+    document.getElementById("expand-contribute").addEventListener("click", { (event: Event) =>
+      contribute.setAttribute("style", "display:block")
+    })
+    document.getElementById("collapse-contribute").addEventListener("click", { (event: Event) =>
+      contribute.setAttribute("style", "display:none")
+    })
   }
 
 }
