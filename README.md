@@ -5,8 +5,8 @@ The easiest way to find these is to do a Google search for "coordinates of [plac
 For example, searching for "coordinates of Brighton" returns the response "50.8429° N, 0.1313° W". This should be translated to the following entry:
 
     {
-      name: 'Brighton Scala Users Group',
-      url: 'http://example.com/',
+      name: "Brighton Scala Users Group",
+      url: "http://example.com/",
       latitude: 50.8429, 
       longitude: -0.1313, 
       justScala: true
