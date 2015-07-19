@@ -54,6 +54,11 @@ object ScalaSpace extends JSApp {
           gridSize = 50,
           minimumClusterSize = 2
         ))
+        if (navigator.geolocation != null) {
+          navigator.geolocation.getCurrentPosition { (position: Position) =>
+            map.setCenter(new LatLng(position.coords.latitude, position.coords.longitude))
+          }
+        }
       }
     }
     req.send()
