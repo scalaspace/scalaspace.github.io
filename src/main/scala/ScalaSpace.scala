@@ -12,20 +12,19 @@ object ScalaSpace extends JSApp {
 
   val infoWindow = new InfoWindow()
 
-  def onClick(map: Map, marker: Marker, group: Group) = () => js.Function {
+  def onClick(map: Map, marker: Marker, group: Group): Unit = {
     val link = if (group.url.startsWith("http")) group.url else s"http://www.meetup.com/${group.url}/"
     val content = document.createElement("a")
     content.setAttribute("href", link)
     content.innerHTML = group.name
     infoWindow.setContent(content)
     infoWindow.open(map, marker)
-    ""
   }
 
   def logo(group: Group): Icon =
     if (group.justScala) Icon("img/markers/scala.png") else Icon("img/markers/lambda.png")
 
-  def initialize() = js.Function {
+  def initialize(): Unit = {
 
     val opts = MapOptions(
       center = new LatLng(51.5072, 0.1275),
@@ -46,7 +45,7 @@ object ScalaSpace extends JSApp {
             icon = logo(group),
             map = map
           ))
-          google.maps.event.addListener(marker, "click", onClick(map, marker, group))
+          google.maps.event.addListener(marker, "click", () => onClick(map, marker, group))
           marker
         }
         // FIXME Restore the calculator function
@@ -63,13 +62,11 @@ object ScalaSpace extends JSApp {
     }
     req.send()
 
-    ""
-
   }
 
   @JSExport
   override def main(): Unit = {
-    google.maps.event.addDomListener(window, "load", initialize)
+    google.maps.event.addDomListener(window, "load", () => initialize)
     val contribute = document.getElementById("contribute")
     document.getElementById("expand-contribute").addEventListener("click", { (event: Event) =>
       contribute.setAttribute("style", "display:block")
