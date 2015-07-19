@@ -6,7 +6,6 @@ import upickle.default._
 
 import scala.scalajs.js
 import scala.scalajs.js.JSApp
-import scala.scalajs.js.annotation.JSExport
 
 object ScalaSpace extends JSApp {
 
