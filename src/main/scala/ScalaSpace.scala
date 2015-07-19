@@ -7,6 +7,8 @@ import upickle.default._
 import scala.scalajs.js
 import scala.scalajs.js.JSApp
 
+import scalajs.concurrent.JSExecutionContext.Implicits.runNow
+
 object ScalaSpace extends JSApp {
 
   val infoWindow = new InfoWindow()
@@ -34,11 +36,9 @@ object ScalaSpace extends JSApp {
 
     val map = new Map(document.getElementById("map"), opts)
 
-    val req = new XMLHttpRequest()
-    req.open("GET", "data/groups.json")
-    req.onreadystatechange = (event: Event) => {
-      if (req.readyState == 4 && req.status == 200) {
-        val markers = read[Groups](req.responseText).groups.map { group =>
+    ext.Ajax.get("data/groups.json").onSuccess {
+      case request: XMLHttpRequest =>
+        val markers = read[Groups](request.responseText).groups.map { group =>
           val marker = new Marker(MarkerOptions(
             position = new LatLng(group.latitude, group.longitude),
             icon = logo(group),
@@ -57,9 +57,7 @@ object ScalaSpace extends JSApp {
             map.setCenter(new LatLng(position.coords.latitude, position.coords.longitude))
           }
         }
-      }
     }
-    req.send()
 
   }
 
