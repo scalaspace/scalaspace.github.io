@@ -8,6 +8,9 @@ persistLauncher in Compile := true
 
 persistLauncher in Test := false
 
+crossTarget in fastOptJS := baseDirectory.value / "js"
+crossTarget in fullOptJS := baseDirectory.value / "js"
+
 resolvers +=
   "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
