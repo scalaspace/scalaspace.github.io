@@ -1,5 +1,7 @@
 package scalaspace
 
-case class Groups(groups: Seq[Group])
+import scala.scalajs.js
+
+case class Groups(groups: js.Array[Group])
 
 case class Group(name: String, url: String, latitude: Double, longitude: Double, justScala: Boolean)

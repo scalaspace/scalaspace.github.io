@@ -22,7 +22,8 @@ object ScalaSpace extends JSApp {
     ""
   }
 
-  def logo(group: Group): Icon = if (group.justScala) Icon("img/markers/scala.png") else Icon("img/markers/lambda.png")
+  def logo(group: Group): Icon =
+    if (group.justScala) Icon("img/markers/scala.png") else Icon("img/markers/lambda.png")
 
   def initialize() = js.Function {
 
@@ -39,14 +40,20 @@ object ScalaSpace extends JSApp {
     req.open("GET", "data/groups.json")
     req.onreadystatechange = (event: Event) => {
       if (req.readyState == 4 && req.status == 200) {
-        for (group <- read[Groups](req.responseText).groups) {
+        val markers = read[Groups](req.responseText).groups.map { group =>
           val marker = new Marker(MarkerOptions(
             position = new LatLng(group.latitude, group.longitude),
             icon = logo(group),
             map = map
           ))
           google.maps.event.addListener(marker, "click", onClick(map, marker, group))
+          marker
         }
+        // FIXME Restore the calculator function
+        new MarkerClusterer(map, markers, js.Dynamic.literal(
+          gridSize = 50,
+          minimumClusterSize = 2
+        ))
       }
     }
     req.send()
@@ -57,9 +64,7 @@ object ScalaSpace extends JSApp {
 
   @JSExport
   override def main(): Unit = {
-
     google.maps.event.addDomListener(window, "load", initialize)
-
   }
 
 }

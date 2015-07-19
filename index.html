@@ -4,22 +4,31 @@
   <head> 
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
     <title>Scala Space: Find Scala Meetup Groups Near You!</title>
+
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
     <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:600,400" rel="stylesheet" type="text/css">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+
   </head>
 
   <body>
 
     <header>
-        <h1>ScalaSpace</h1>
-        <h2>Find Scala Meetup Groups Near You!</h2>
-        <div><a href="javascript:void(0)" id="expand-contribute">Contribute!</a></div>
+        <div class="left">
+            <div><h1>ScalaSpace</h1></div>
+            <div><h2>Find Scala Meetup Groups Near You!</h2></div>
+        </div>
+        <div class="right">
+            <div id="expand-contribute"><a href="javascript:void(0)">Contribute!</a></div>
+        </div>
     </header>
 
     <section id="map"></section>
 
   </body>
+
+  <script src="js/lib/markerclusterer_compiled.js"></script>
 
   <script src="target/scala-2.11/scala-space-jsdeps.js"></script>
   <script src="target/scala-2.11/scala-space-opt.js"></script>
