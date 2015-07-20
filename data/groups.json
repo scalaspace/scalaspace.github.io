@@ -435,6 +435,13 @@
       "justScala": true
     },
     {
+      "name": "Reykjavík Functional Programming",
+      "url": "https://www.facebook.com/groups/reykjavikfp/",
+      "latitude": 64.1333,
+      "longitude": -21.9333,
+      "justScala": false
+    },
+    {
       "name": "Rhein Main Scala Enthusiasts",
       "url": "Rhein-Main-Scala-Enthusiasts",
       "latitude": 50.1167,
