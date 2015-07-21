@@ -540,6 +540,13 @@
       "justScala": true
     },
     {
+      "name": "Scala Indonesia",
+      "url": "https://www.facebook.com/groups/scala.id/",
+      "latitude": -7.797068,
+      "longitude": 110.370529,
+      "justScala": true
+    },
+    {
       "name": "Scala Jozi",
       "url": "Scala-Jozi",
       "latitude": -26.2044,
