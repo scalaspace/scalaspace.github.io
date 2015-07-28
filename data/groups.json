@@ -99,6 +99,13 @@
       "justScala": true
     },
     {
+      "name": "Bucharest FP",
+      "url": "http://bucharestfp.ro/",
+      "latitude": 44.4268,
+      "longitude": 26.1025,
+      "justScala": false
+    },
+    {
       "name": "budapest.scala",
       "url": "budapest-scala",
       "latitude": 47.4925,
@@ -171,8 +178,8 @@
     {
       "name": "Enterprise Scala Users Group",
       "url": "Bogota-Scala-Meetup",
-      "latitude": 4.3635,
-      "longitude": -74.0454,
+      "latitude": 4.5988,
+      "longitude": -74.0808,
       "justScala": true
     },
     {
@@ -435,6 +442,13 @@
       "justScala": true
     },
     {
+      "name": "Reykjavík Functional Programming",
+      "url": "https://www.facebook.com/groups/reykjavikfp/",
+      "latitude": 64.1333,
+      "longitude": -21.9333,
+      "justScala": false
+    },
+    {
       "name": "Rhein Main Scala Enthusiasts",
       "url": "Rhein-Main-Scala-Enthusiasts",
       "latitude": 50.1167,
@@ -530,6 +544,13 @@
       "url": "Scala-Hamburg",
       "latitude": 53.5653,
       "longitude": 10.0014,
+      "justScala": true
+    },
+    {
+      "name": "Scala Indonesia",
+      "url": "https://www.facebook.com/groups/scala.id/",
+      "latitude": -7.797068,
+      "longitude": 110.370529,
       "justScala": true
     },
     {
