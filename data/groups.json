@@ -673,6 +673,13 @@
       "justScala": true
     },
     {
+      "name": "Scala Utrecht",
+      "url": "Scala-Utrecht",
+      "latitude": 52.090581,
+      "longitude": 5.120996,
+      "justScala": true
+    },
+    {
       "name": "Singapore Scala Programmers",
       "url": "Singapore-Scala-Programmers",
       "latitude": 1.3,
