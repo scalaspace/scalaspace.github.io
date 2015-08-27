@@ -624,6 +624,13 @@
       "justScala": true
     },
     {
+      "name": "Scala User Group Graz",
+      "url": "http://grical.realraum.at/e/show/679/",
+      "latitude": 47.0655,
+      "longitude": 15.4505,
+      "justScala": false
+    },
+    {
       "name": "Scala User Group Köln Bonn",
       "url": "Scala-User-Group-Koln-Bonn",
       "latitude": 50.9364,
