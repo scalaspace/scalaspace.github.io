@@ -204,6 +204,13 @@
       "justScala": true
     },
     {
+      "name": "Functional Rotterdam",
+      "url": "Functional-Rotterdam",
+      "latitude": 51.9137049,
+      "longitude": 4.4807647,
+      "justScala": false
+    },
+    {
       "name": "Göteborgs Scalaentusiaster",
       "url": "Scala-Geats",
       "latitude": 57.7,
