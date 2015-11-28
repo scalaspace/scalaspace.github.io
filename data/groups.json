@@ -435,6 +435,13 @@
       "justScala": false
     },
     {
+      "name": "Perú Scala Users Group",
+      "url": "http://scala.pe",
+      "latitude": -12.0901128,
+      "longitude": -77.043585,
+      "justScala": false
+    },
+    {
       "name": "PHASE: Philly Area Scala Enthusiasts",
       "url": "scala-phase",
       "latitude": 39.95,
