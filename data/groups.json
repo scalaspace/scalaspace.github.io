@@ -29,6 +29,13 @@
       "justScala": true
     },
     {
+      "name": "Baltimore Scala",
+      "url": "Baltimore-Scala",
+      "latitude": 39.284018,
+      "longitude": -76.609921,
+      "justScala": true
+    },
+    {
       "name": "Bangalore Scala/Akka Functional Programming",
       "url": "Bangalore-Scala-Akka-Functional-Programming",
       "latitude": 12.9667,
