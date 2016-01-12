@@ -225,6 +225,13 @@
       "justScala": true
     },
     {
+      "name": "Scala 中国用户组交流会（@BeiJing）",
+      "url": "https://github.com/scalacn/scala-meetup",
+      "latitude": 39.9075000,
+      "longitude": 116.3972300,
+      "justScala": true
+    },
+    {
       "name": "Hong Kong Functional Programming",
       "url": "HK-Functional-Programming",
       "latitude": 22.2783,
