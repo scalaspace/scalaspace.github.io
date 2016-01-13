@@ -188,6 +188,12 @@
       "latitude": 4.5988,
       "longitude": -74.0808,
       "justScala": true
+    },{
+      "name": "Forest Row Scala",
+      "url": "http://www.meetup.com/Forest-Row-Scala/",
+      "latitude": 51.0982,
+      "longitude": 0.0334,
+      "justScala": true
     },
     {
       "name": "FP AMS",
