@@ -162,6 +162,13 @@
       "justScala": true
     },
     {
+      "name": "Denver Scala User Group",
+      "url": "Denver-Scala-User-Group",
+      "latitude": 39.750519,
+      "longitude": -104.999708,
+      "justScala": true
+    },
+    {
       "name": "Dubai Scala",
       "url": "dubai-scala",
       "latitude": 25.2048,
