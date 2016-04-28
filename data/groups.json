@@ -799,6 +799,13 @@
       "justScala": true
     },
     {
+      "name": "Turkey Scala User Group",
+      "url": "www.turkeyjug.org",
+      "latitude": 41.01453,
+      "longitude": 29.01299,
+      "justScala": true
+    },
+    {
       "name": "Scala by the Lagoon",
       "url": "Scala-by-the-Lagoon",
       "latitude": 45.6667,
