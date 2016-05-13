@@ -351,6 +351,13 @@
       "justScala": true
     },
     {
+      "name": "Miami Scala Enthusiasts",
+      "url": "Miami-Scala-Enthusiasts",
+      "latitude": 25.7617,
+      "longitude": 80.1918,
+      "justScala": true
+    }, 
+    {
       "name": "Milano Scala Group",
       "url": "milano-scala-group",
       "latitude": 45.4667,
