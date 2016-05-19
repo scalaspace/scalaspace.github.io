@@ -820,6 +820,13 @@
       "justScala": true
     },
     {
+      "name": "Turkey Scala Users Group",
+      "url": "http://www.turkeyjug.org",
+      "latitude": 41.01453,
+      "longitude": 29.01299,
+      "justScala": true
+    },
+    {
       "name": "Underscore (Israeli Scala User Group)",
       "url": "underscore",
       "latitude": 32.0667,
