@@ -13,3 +13,6 @@ For example, searching for "coordinates of Brighton" returns the response "50.84
     }
 
 Try to keep the locations in alphabetical order of name.
+
+
+[![Join the chat at https://gitter.im/scalaspace/scalaspace.github.io](https://badges.gitter.im/scalaspace/scalaspace.github.io.svg)](https://gitter.im/scalaspace/scalaspace.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
