@@ -259,6 +259,13 @@
       "longitude": 15.9833,
       "justScala": true
     },
+	 {
+      "name": "Hyderabad Scala Community",
+      "url": "hyscala",
+      "latitude": 17.4126,
+      "longitude": 78.2679,
+      "justScala": true
+    },
     {
       "name": "Indy Scala",
       "url": "IndyScala",
