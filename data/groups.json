@@ -309,6 +309,13 @@
       "justScala": false
     },
     {
+      "name": "Lille Scala User Group (LiSUG)",
+      "url": "Lille-Scala-User-Group-LiSUG",
+      "latitude": 50.637222,
+      "longitude": 3.063333,
+      "justScala": true
+    },
+    {
       "name": "Ljubljana Scala User Group",
       "url": "Ljubljana-Scala-User-Group",
       "latitude": 46.0556,
