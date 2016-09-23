@@ -225,6 +225,13 @@
       "justScala": true
     },
     {
+      "name": "Functional Kats Cork",
+      "url": "https://www.meetup.com/functional-kats-cork",
+      "latitude": 51.8969,
+      "longitude": -8.4863,
+      "justScala": false
+    },
+    {
       "name": "Functional Rotterdam",
       "url": "Functional-Rotterdam",
       "latitude": 51.9137049,
