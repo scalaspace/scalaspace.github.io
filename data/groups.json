@@ -190,6 +190,13 @@
       "justScala": true
     },
     {
+      "name": "Scala User Group Düsseldorf",
+      "url": "Scala-User-Group-Dusseldorf",
+      "latitude": 51.22540,
+      "longitude": 6.77537,
+      "justScala": true
+    },
+    {
       "name": "Enterprise Scala Users Group",
       "url": "Bogota-Scala-Meetup",
       "latitude": 4.5988,
@@ -377,7 +384,7 @@
       "latitude": 25.778135,
       "longitude": -80.179100,
       "justScala": true
-    }, 
+    },
     {
       "name": "Milano Scala Group",
       "url": "milano-scala-group",
