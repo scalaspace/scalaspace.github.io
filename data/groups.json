@@ -750,6 +750,13 @@
       "justScala": true
     },
     {
+      "name": "Scala Taiwan",
+      "url": "Scala-Taiwan-Meetup",
+      "latitude": 25.1157,
+      "longitude": 121.5341,
+      "justScala": true
+    },
+    {
       "name": "Scala Thailand Meetup",
       "url": "Scala-Thailand-Meetup",
       "latitude": 13.7563,
