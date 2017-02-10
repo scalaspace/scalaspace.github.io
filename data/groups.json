@@ -225,6 +225,13 @@
       "justScala": false
     },
     {
+      "name": "Freiburg Scala User Group",
+      "url": "https://www.meetup.com/scalafrb/",
+      "latitude": 47.993743,
+      "longitude": 7.848701,
+      "justScala": true
+    },
+    {
       "name": "Functional Brighton",
       "url": "Functional-Brighton",
       "latitude": 50.8429,
