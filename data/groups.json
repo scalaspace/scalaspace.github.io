@@ -891,9 +891,9 @@
     },
     {
       "name": "Vienna Scala User Group",
-      "url": "scala-vienna",
-      "latitude": 48.2,
-      "longitude": 16.3667,
+      "url": "http://www.scala-vienna.org",
+      "latitude": 48.192015,
+      "longitude": 16.335946,
       "justScala": true
     },
     {
