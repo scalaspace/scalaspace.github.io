@@ -958,6 +958,13 @@
       "latitude": 37.4961371,
       "longitude": 127.0290714,
       "justScala": true
+    },
+    {
+      "name": "Amsterdam Scala",
+      "url": "https://www.meetup.com/amsterdam-scala/",
+      "latitude": 4.8986142,
+      "longitude": 52.374612,
+      "justScala": true
     }
   ]
 }
