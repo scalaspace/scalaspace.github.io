@@ -267,6 +267,13 @@
       "justScala": true
     },
     {
+      "name": "Helsinki Scala Club",
+      "url": "Scala-Helsinki",
+      "latitude": 60.1699,
+      "longitude": 24.9384,
+      "justScala": true
+    },
+    {
       "name": "Hong Kong Functional Programming",
       "url": "HK-Functional-Programming",
       "latitude": 22.2783,
