@@ -951,6 +951,13 @@
       "latitude": -6.217018,
       "longitude": 106.830287,
       "justScala": true
+    },
+    {
+      "name": "La Scala Coders, Korea scala user group",
+      "url": "https://groups.google.com/forum/#!forum/scala-korea",
+      "latitude": 37.4961371,
+      "longitude": 127.0290714,
+      "justScala": true
     }
   ]
 }
