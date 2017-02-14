@@ -203,7 +203,7 @@
       "longitude": -74.0808,
       "justScala": true
     },
-	{
+    {
       "name": "Forest Row Scala",
       "url": "http://www.meetup.com/Forest-Row-Scala/",
       "latitude": 51.0982,
@@ -287,7 +287,7 @@
       "longitude": 15.9833,
       "justScala": true
     },
-	 {
+    {
       "name": "Hyderabad Scala Community",
       "url": "hyscala",
       "latitude": 17.4126,
@@ -348,6 +348,13 @@
       "url": "Ljubljana-Scala-User-Group",
       "latitude": 46.0556,
       "longitude": 14.5083,
+      "justScala": true
+    },
+    {
+      "name": "Lviv Scala Lodge",
+      "url": "Lviv-Scala-Lodge",
+      "latitude": 49.8397,
+      "longitude": 24.0297,
       "justScala": true
     },
     {
