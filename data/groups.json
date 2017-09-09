@@ -246,6 +246,13 @@
       "justScala": false
     },
     {
+      "name": "Functional Programming Montpellier",
+      "url": "Functional-Programming-Montpellier",
+      "latitude": 43.608471,
+      "longitude": 3.8778459,
+      "justScala": false
+    },
+    {
       "name": "Functional Rotterdam",
       "url": "Functional-Rotterdam",
       "latitude": 51.9137049,
