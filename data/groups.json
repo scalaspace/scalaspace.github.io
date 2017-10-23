@@ -792,6 +792,13 @@
       "justScala": true
     },
     {
+      "name": "Scala Türkiye",
+      "url": "https://www.facebook.com/groups/ScalaTr/",
+      "latitude": 39.227466,
+      "longitude": 35.013428,
+      "justScala": true
+    },  
+    {
       "name": "Scala Thailand Meetup",
       "url": "Scala-Thailand-Meetup",
       "latitude": 13.7563,
@@ -894,7 +901,7 @@
       "url": "http://www.turkeyjug.org",
       "latitude": 41.01453,
       "longitude": 29.01299,
-      "justScala": true
+      "justScala": false
     },
     {
       "name": "Underscore (Israeli Scala User Group)",
