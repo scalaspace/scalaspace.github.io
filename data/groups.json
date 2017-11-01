@@ -848,6 +848,13 @@
       "justScala": true
     },
     {
+      "name": "St. Petersburg Scala User Group",
+      "url": "ScalaSpb",
+      "latitude": 59.939368,
+      "longitude": 30.315357,
+      "justScala": true
+    },
+    {
       "name": "SUGAR - Scala User Group Argentina",
       "url": "scala_ar",
       "latitude": -34.6033,
