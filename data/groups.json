@@ -813,6 +813,13 @@
       "justScala": true
     },
     {
+      "name": "Scala Scotland meetup",
+      "url": "Scala-Scotland-meetup",
+      "latitude": 55.9533,
+      "longitude": 3.1883,
+      "justScala": true
+    },
+    {
       "name": "Singapore Scala Programmers",
       "url": "Singapore-Scala-Programmers",
       "latitude": 1.3,
