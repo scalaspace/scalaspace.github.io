@@ -4,12 +4,11 @@ import google.maps._
 import org.scalajs.dom._
 import upickle.default._
 
+import scala.scalajs.concurrent.JSExecutionContext.Implicits.queue
 import scala.scalajs.js
-import scala.scalajs.js.JSApp
+import scala.util.{Failure, Success}
 
-import scalajs.concurrent.JSExecutionContext.Implicits.runNow
-
-object ScalaSpace extends JSApp {
+object ScalaSpace {
 
   val infoWindow = new InfoWindow()
 
@@ -36,8 +35,8 @@ object ScalaSpace extends JSApp {
 
     val map = new Map(document.getElementById("map"), opts)
 
-    ext.Ajax.get("data/groups.json").onSuccess {
-      case request: XMLHttpRequest =>
+    ext.Ajax.get("data/groups.json").onComplete {
+      case Success(request: XMLHttpRequest) =>
         val markers = read[Groups](request.responseText).groups.map { group =>
           val marker = new Marker(MarkerOptions(
             position = new LatLng(group.latitude, group.longitude),
@@ -52,16 +51,18 @@ object ScalaSpace extends JSApp {
           gridSize = 50,
           minimumClusterSize = 2
         ))
-        if (navigator.geolocation != null) {
-          navigator.geolocation.getCurrentPosition { (position: Position) =>
+        if (document.defaultView.navigator.geolocation != null) {
+          document.defaultView.navigator.geolocation.getCurrentPosition { (position: Position) =>
             map.setCenter(new LatLng(position.coords.latitude, position.coords.longitude))
           }
         }
+      case Failure(_) =>
+        console.log("Failed to load data. Please try again later.")
     }
 
   }
 
-  override def main(): Unit = {
+  def main(args: Array[String]): Unit = {
     google.maps.event.addDomListener(window, "load", () => initialize)
     val contribute = document.getElementById("contribute")
     document.getElementById("expand-contribute").addEventListener("click", { (event: Event) =>

@@ -14,5 +14,22 @@ For example, searching for "coordinates of Brighton" returns the response "50.84
 
 Try to keep the locations in alphabetical order of name.
 
+# Contributing
+
+## Building locally
+
+```
+# clone the repository
+git clone git@github.com:scalaspace/scalaspace.github.io.git
+cd scalaspace.github.io
+# make your changes to the code
+
+# build the javascript file
+sbt fullOptJS
+
+# open browser
+open index.html
+```
+
 
 [![Join the chat at https://gitter.im/scalaspace/scalaspace.github.io](https://badges.gitter.im/scalaspace/scalaspace.github.io.svg)](https://gitter.im/scalaspace/scalaspace.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
