@@ -2,6 +2,7 @@ package scalaspace
 
 import scala.scalajs.js
 
+@js.native
 trait Icon extends js.Object {
   val url: String = js.native
 }

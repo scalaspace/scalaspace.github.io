@@ -3,9 +3,10 @@ package scalaspace
 import google.maps._
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
-@JSName("MarkerClusterer")
+@JSGlobal("MarkerClusterer")
+@js.native
 class MarkerClusterer protected() extends OverlayView {
 
   def this(map: Map, opt_markers: js.Array[Marker] = ???, opt_options: js.Object = ???) = this()
