@@ -27,8 +27,8 @@ object ScalaSpace {
   def initialize(): Unit = {
 
     val opts = MapOptions(
-      center = new LatLng(51.5072, 0.1275),
-      zoom = 6,
+      center = new LatLng(0, 0),
+      zoom = 2,
       mapTypeId = MapTypeId.ROADMAP,
       mapTypeControl = false,
       streetViewControl = false)
