@@ -107,7 +107,7 @@
     },
     {
       "name": "Bucharest FP",
-      "url": "http://bucharestfp.ro/",
+      "url": "bucharestfp",
       "latitude": 44.4268,
       "longitude": 26.1025,
       "justScala": false
@@ -289,7 +289,7 @@
     },
     {
       "name": "JUG Poznań",
-      "url": "http://www.jug.poznan.pl",
+      "url": "Poznan-Java-User-Group",
       "latitude": 52.4064,
       "longitude": 16.9252,
       "justScala": false
@@ -505,8 +505,8 @@
       "justScala": false
     },
     {
-      "name": "Perú Scala Users Group",
-      "url": "http://scala.pe",
+      "name": "Functional programming Perú",
+      "url": "functionalprogrammingperu",
       "latitude": -12.0901128,
       "longitude": -77.043585,
       "justScala": false
