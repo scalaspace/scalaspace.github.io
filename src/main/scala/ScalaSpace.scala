@@ -48,8 +48,8 @@ object ScalaSpace {
         }
         // FIXME Restore the calculator function
         new MarkerClusterer(map, markers, js.Dynamic.literal(
-          gridSize = 50,
-          minimumClusterSize = 2
+          gridSize = 25,
+          minimumClusterSize = 3
         ))
         if (document.defaultView.navigator.geolocation != null) {
           document.defaultView.navigator.geolocation.getCurrentPosition { (position: Position) =>
