@@ -1000,6 +1000,13 @@
       "latitude": 37.4961371,
       "longitude": 127.0290714,
       "justScala": true
+    },
+    {
+      "name": "Scala in the City",
+      "url": "scala-in-the-city",
+      "latitude": 51.506715,
+      "longitude": -0.122188,
+      "justScala": true
     }
   ]
 }
