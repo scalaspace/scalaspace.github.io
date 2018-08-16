@@ -176,6 +176,20 @@
       "justScala": true
     },
     {
+      "name": "ScalaBridge Boston",
+      "url": "scalabridge-boston",
+      "latitude": 42.3601,
+      "longitude": -71.0589,
+      "justScala": true
+    },
+    {
+      "name": "ScalaBridge Switzerland",
+      "url": "ScalaBridge-Switzerland",
+      "latitude": 46.8182,
+      "longitude": 8.2275,
+      "justScala": true
+    },
+    {
       "name": "Enterprise Scala Users Group",
       "url": "Bogota-Scala-Meetup",
       "latitude": 4.5988,
