@@ -58,12 +58,6 @@ object ScalaSpace {
           gridSize = 25,
           minimumClusterSize = 2
         ))
-        
-        if (document.defaultView.navigator.geolocation != null) {
-          document.defaultView.navigator.geolocation.getCurrentPosition { (position: Position) =>
-            map.setCenter(new LatLng(position.coords.latitude, position.coords.longitude))
-          }
-        }
 
       case Success(Failure(_)) =>
         console.log("Json decoding failed.")
