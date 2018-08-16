@@ -1,5 +1,4 @@
-{
-  "groups": [
+[
     {
       "name": "Amsterdam.scala",
       "url": "amsterdam-scala",
@@ -960,4 +959,3 @@
       "justScala": true
     }
   ]
-}
