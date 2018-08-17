@@ -15,8 +15,8 @@ scalaJSUseMainModuleInitializer in Compile := true
 
 scalaJSUseMainModuleInitializer in Test := false
 
-crossTarget in fastOptJS := baseDirectory.value / "js"
-crossTarget in fullOptJS := baseDirectory.value / "js"
+crossTarget in fastOptJS := baseDirectory.value / "public" / "js"
+crossTarget in fullOptJS := baseDirectory.value / "public" / "js"
 
 resolvers +=
   "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
