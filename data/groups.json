@@ -322,6 +322,13 @@
       "justScala": true
     },
     {
+      "name": "Lagos Scala Meetup",
+      "url": "https://www.meetup.com/lagosscala/",
+      "latitude": 6.465422,
+      "longitude": 3.406448,
+      "justScala": true
+    },
+    {
       "name": "Lambda-ES",
       "url": "%CE%BB-Lambda-ES",
       "latitude": 36.4629241,
@@ -425,6 +432,13 @@
       "latitude": 18.975,
       "longitude": 72.8258,
       "justScala": true
+    },
+    {
+      "name": "Nairobi JVM",
+      "url": "https://www.meetup.com/nairobi-jvm/",
+      "latitude": -1.291514,
+      "longitude": 36.874260,
+      "justScala": false
     },
     {
       "name": "Nantes FP",
@@ -761,7 +775,7 @@
       "latitude": 39.227466,
       "longitude": 35.013428,
       "justScala": true
-    },  
+    },
     {
       "name": "Scala Thailand Meetup",
       "url": "Scala-Thailand-Meetup",
