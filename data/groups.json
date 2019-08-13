@@ -336,6 +336,13 @@
       "justScala": true
     },
     {
+      "name": "LambdaHRO",
+      "url": "https://www.lambdahro.de/",
+      "latitude": 54.0833,
+      "longitude": 12.1333,
+      "justScala": false
+    },
+    {
       "name": "Lambda Luminaries",
       "url": "lambda-luminaries",
       "latitude": -25.8407139,
