@@ -707,6 +707,13 @@
       "justScala": true
     },
     {
+      "name": "Scala Porto",
+      "url": "https://www.meetup.com/Scala-Porto/",
+      "latitude": 41.1621217,
+      "longitude": -8.6919936,
+      "justScala": true
+    },
+    {
       "name": "Scala Portugal",
       "url": "Scala-Portugal",
       "latitude": 38.7139,
